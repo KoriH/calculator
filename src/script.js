@@ -68,6 +68,7 @@ for (let i = 0; i < 5; ++i) {
         text.classList.add('value');
         button.classList.add('button', textVal);
 
+
         if (isNumeric(textKey)) {
             button.addEventListener('click', function() {
                 expression += textKey;

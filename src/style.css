@@ -87,6 +87,14 @@ body {
     align-items: center;
 }
 
+.button:hover {
+    transform: scale(1.1);
+}
+
+.button.pop {
+    transform: scale(0.9);
+}
+
 .button.equals {
     border-radius: 30px;
     width: 45%;
